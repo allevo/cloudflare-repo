@@ -1,0 +1,8 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "04-hono"
+main = "src/index.ts"
+compatibility_date = "2024-09-03"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+UPSTREAM_URL = "https://jsonplaceholder.typicode.com"

@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Static Page</title>
+    </head>
+    <body>
+        <h1>Static Page</h1>
+        <p>This is a static page: subpage.html</p>
+        <p id="content">Loading...</p>
+        <script>
+            setTimeout(() => {
+                document.getElementById('content').innerText = 'Loaded!';
+            }, 3000);
+        </script>
+    </body>
+</html>
